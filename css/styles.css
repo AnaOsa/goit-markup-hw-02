@@ -42,6 +42,9 @@ a {
 .link:active {
     color: var(--accent-color);
 }
+.current {
+    color: var(--accent-color);
+}
 .link-color {
     color: var(--text-color);
 }
