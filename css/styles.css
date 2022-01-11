@@ -7,7 +7,6 @@
     --btn-portfolio: #f5f4fa;
 }
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     background-color: var(--backround-color);
@@ -21,7 +20,7 @@ a {
 /* хедер*/
 .logo {
     font-family: 'Raleway';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
@@ -66,7 +65,7 @@ a {
 }
 .btn {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     text-align: center;
@@ -109,6 +108,9 @@ a {
 /* Подвал */
 .logo-footer {
     color: var(--white-text-color);
+}
+.address {
+    font-style: normal;
 }
 /* Портфолио  */
 .btn-portfolio {
